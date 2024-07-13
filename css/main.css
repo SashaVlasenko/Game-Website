@@ -1,0 +1,1180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .hero--info {
+    width: 100%;
+  }
+
+  .trending .games {
+    flex-wrap: wrap;
+  }
+
+  .trending .games span {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .features .info .block {
+    width: 45%;
+    margin: 20px 2.5%;
+  }
+}
+
+@media (max-width: 992px) {
+  header nav {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  .trending .games span {
+    width: 100%;
+  }
+
+  .projects .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects .images img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .email .block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .email .block input {
+    width: 100%;
+    right: 0;
+    padding-right: 30px;
+  }
+
+  .hero-about .info,
+  .game-description .game-text {
+    width: 100%;
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero img {
+    display: none;
+  }
+
+  .hero--info h1 {
+    font-size: 40px;
+  }
+
+  .hero--info p {
+    font-size: 15px;
+  }
+
+  .work .blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work .blocks .block {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .container.different {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .container.different .information-1,
+  .container.different .information-2,
+  .container.different .information-3 {
+    padding: 20px 30px;
+    width: 100%;
+    border-right: none;
+    text-align: center;
+  }
+
+  .container.spider {
+    padding: 50px 0;
+  }
+
+  .container.spider .text-spider {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .container.lorem-ipsum img,
+  .container.lorem-ipsum2 img {
+    float: none;
+    margin: 0;
+  }
+
+  .container.lorem-ipsum .text-lorem,
+  .container.lorem-ipsum2 .text-lorem2 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .container.dummy-texts .dummy-text {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .email.news {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 30px 0;
+  }
+
+  .hero--info h1 {
+    font-size: 30px;
+  }
+
+  .hero--info p {
+    font-size: 14px;
+  }
+
+  .big-text {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .features h3,
+  .features p {
+    max-width: 100%;
+  }
+
+  .features .info .block {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .projects .images img {
+    width: 100%;
+  }
+
+  .container.services h1 {
+    font-size: 25px;
+  }
+
+  .container.different {
+    padding: 20px;
+  }
+
+  .container.spider .text-spider {
+    padding: 0 10px;
+  }
+
+  .container.lorem-ipsum .text-lorem,
+  .container.lorem-ipsum2 .text-lorem2,
+  .container.dummy-texts .dummy-text {
+    padding: 0 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(26, 14, 1, 1) 100%
+  );
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px;
+}
+
+header .logo,
+footer .blocks .logo {
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 800;
+}
+
+header nav {
+  float: right;
+  width: 50%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #fff;
+}
+
+header nav ul li.active::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: #dc7000;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  left: -20px;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+  border-bottom: 3px solid #dc7000;
+}
+
+header nav ul li.btn a,
+.email .block button {
+  background: #fa9021;
+  padding: 9px 17px;
+  border-radius: 5px;
+  transition: all 700ms ease;
+}
+
+header nav ul li.btn a:hover,
+.email .block button:hover {
+  background: #700a0a;
+}
+
+.hero {
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero--info {
+  width: 530px;
+  padding-top: 70px;
+}
+
+.hero--info h2 {
+  color: #e87d0e;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero--info h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hero--info p {
+  font-size: 500;
+  line-height: 170%;
+  margin: 30px 0;
+  font-size: 17px;
+}
+
+.hero--info .btn,
+.hero-about .info .btn {
+  background: #fa8305;
+  color: #fff;
+  border-radius: 50px;
+  padding: 15px 30px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 17px;
+}
+
+.hero--info .btn:hover,
+.hero-about .info .btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.hero img {
+  position: absolute;
+  top: -150px;
+  right: 0;
+}
+
+/*Сeкція з іграми*/
+.trending {
+  padding-top: 50px;
+}
+
+.trending h3 {
+  font-weight: 600;
+  font-size: 31px;
+}
+
+.trending .see-all,
+.projects .see-all {
+  color: #fff;
+  background: #25211d;
+  border-radius: 5px;
+  padding: 12px 23px;
+  float: right;
+  display: block;
+  transition: all 500ms ease;
+}
+
+.trending .see-all:hover,
+.projects .see-all:hover {
+  transform: scale(1.2);
+}
+
+.trending .games {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.trending .games span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trending .games span img {
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+
+.big-text {
+  padding: 50px 0;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  width: 800px;
+}
+
+.banner {
+  padding: 80px 0;
+}
+
+.banner h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner p {
+  line-height: 170%;
+  margin-bottom: 30px;
+  width: 545px;
+}
+
+.banner img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.features {
+  background: url("/img/BG.png") no-repeat center center fixed;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.features h3,
+.features p {
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features h3 {
+  font-size: 30px;
+}
+
+.features .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features .info .block {
+  text-align: center;
+  width: 20%;
+  margin: 30px 2%;
+}
+
+.features .info .block img {
+  margin-bottom: 15px;
+}
+
+.projects {
+  padding: 100px 0;
+}
+
+.projects h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects p {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.projects .images {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.projects .see-all {
+  float: none;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Нижня частина*/
+.email {
+  padding-bottom: 120px;
+}
+
+.email h3 {
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+.email .block {
+  background: #1c140f;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 40px 3%;
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email .block h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.email .block p {
+  width: 500px;
+}
+
+.email .block input {
+  background: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  width: 380px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 20px 30px;
+  position: relative;
+  right: -100px;
+  z-index: 1;
+  padding-right: 120px;
+}
+
+.email .block input::placeholder {
+  color: #898989;
+}
+
+.email .block button {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 17px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+/* Сторінка про нас */
+.hero-about .info {
+  position: relative;
+}
+
+.hero-about .info {
+  width: 500px;
+  padding: 250px 0;
+}
+
+.hero-about .info h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.hero-about .info .btn {
+  margin-top: 20px;
+}
+
+.hero-about img {
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+
+.work {
+  padding: 80px 0;
+}
+
+.work h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.work .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .blocks .block {
+  width: 25%;
+  border-radius: 10px;
+  padding: 50px 35px;
+  background: #1c140f;
+}
+
+.work .blocks .block h3 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.work .blocks .block .badge {
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purpule {
+  background: #b000dc;
+}
+
+.work .blocks .block .badge.brown {
+  background: #dc4200;
+}
+
+.work .blocks .block .badge.green {
+  background: #00dc8d;
+}
+
+.game-description {
+  background: #1c140f;
+  padding-top: 100px;
+}
+
+.game-description .game-text {
+  width: 536px;
+  float: right;
+  margin-right: 25%;
+}
+
+.game-text h3 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.container.our.team {
+  padding: 80px 0;
+}
+
+.our.team h2 {
+  font-size: 25px;
+  margin: 100px 0;
+}
+
+.our.team .teams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our.team .team {
+  border-radius: 20px;
+  padding: 50px 120px;
+  background: #1c140f;
+  text-align: center;
+}
+
+/* Сторінка з послугами */
+
+.container.services {
+  text-align: center;
+}
+
+.container.services h1 {
+  font-size: 33px;
+}
+
+.container.services p {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.container.different {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  background: #1c140f;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.container.different .information-1,
+.information-2,
+.information-3 {
+  padding: 30px 90px;
+}
+
+.different .information-1 h2,
+.information-2 h2,
+.information-3 h2 {
+  margin-top: -65px;
+  padding: 0 90px;
+}
+
+.different .information-1 p,
+.information-2 p,
+.information-3 p {
+  padding-left: 90px;
+  margin-top: 7px;
+}
+
+.container.different .information-1,
+.information-2 {
+  border-right: 2px solid #eeeff2;
+}
+
+.container.spider {
+  padding: 150px;
+}
+
+.container.spider .text-spider {
+  float: right;
+  width: 430px;
+  margin: 0 195px;
+}
+
+.container.spider .text-spider h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.container.spider .text-spider h3,
+p {
+  margin-bottom: 15px;
+}
+
+.container.spider .text-spider .img-daw p {
+  margin: 0 25px;
+  margin-top: -40px;
+  padding: 10px;
+}
+
+.container.spider .text-spider .img-daw img {
+  margin-top: 20px;
+}
+
+.container.lorem-ipsum {
+  padding: 50px;
+}
+
+.container.lorem-ipsum .text-lorem,
+.container.lorem-ipsum2 .text-lorem2 {
+  width: 520px;
+}
+
+.container.lorem-ipsum img,
+.container.lorem-ipsum2 img {
+  float: right;
+  margin: -450px 220px;
+}
+
+.container.lorem-ipsum .text-lorem h3,
+.container.lorem-ipsum2 .text-lorem2 h3 {
+  font-size: 30px;
+}
+
+.container.lorem-ipsum .text-lorem p,
+.container.lorem-ipsum2 .text-lorem2 p {
+  padding: 25px 0;
+}
+
+.container.lorem-ipsum .text-lorem .Read-more,
+.container.dummy-texts .dummy-text .Read-more,
+.container.lorem-ipsum2 .text-lorem2 .Read-more {
+  background: #dc7000;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 17px;
+}
+
+.container.lorem-ipsum .text-lorem .Read-more:hover,
+.container.dummy-texts .dummy-text .Read-more:hover,
+.container.lorem-ipsum2 .text-lorem2 .Read-more:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.container.dummy-texts {
+  padding: 150px 0;
+}
+
+.container.dummy-texts .dummy-text {
+  width: 520px;
+  float: right;
+  margin: 40px 240px;
+}
+
+.container.dummy-texts .dummy-text h3 {
+  font-size: 30px;
+}
+
+.container.dummy-texts .dummy-text p {
+  padding: 25px 0;
+}
+
+.container.lorem-ipsum2 {
+  padding: 30px 0;
+  padding-bottom: 200px;
+}
+
+.Trusted.by.Thousands {
+  background: #1c140f;
+}
+
+.container.Trusted.by.Thousand.text {
+  max-width: 550px;
+  text-align: center;
+  padding: 60px;
+}
+
+.container.Trusted.by.Thousand.text h3 {
+  font-size: 35px;
+  padding: 30px;
+}
+
+.Trusted.by.Thousands {
+  margin-bottom: 150px;
+}
+
+.colleagues {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colleagues p {
+  width: 300px;
+  font-size: 14px;
+  padding: 10px 65px;
+}
+
+.colleagues .colleagues-img {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.colleagues h3 {
+  padding-left: 95px;
+  margin-top: -55px;
+}
+
+.country {
+  margin-left: 37px;
+  margin-top: -12px;
+}
+
+.colleagues .Viezh.Robert {
+  border: 3px solid #dc7000;
+  border-radius: 10px;
+  background: #0f0901;
+}
+
+.Yessica.Christy {
+  border: 3px solid #dddddd;
+  border-radius: 10px;
+}
+
+.Kim.Young.Jou {
+  border: 3px solid #dddddd;
+  border-radius: 10px;
+}
+
+.star {
+  float: right;
+  padding-right: 40px;
+  padding-top: 47px;
+}
+
+.colleagues h4 {
+  float: right;
+  margin-top: -60px;
+  margin-right: 70px;
+}
+
+.dots {
+  padding: 80px 0;
+}
+
+.left.arrow {
+  float: right;
+  margin-top: 45px;
+  margin-left: -100px;
+}
+
+.right.arrow {
+  float: right;
+  margin-top: 13px;
+  margin-right: 100px;
+}
+
+/* Новини */
+
+.container.search.text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.search-form {
+  background: #1c140f;
+  border-radius: 10px;
+  display: flex;
+  width: 400px;
+  padding: 15px 30px;
+  outline: none;
+}
+
+.search-form_txt {
+  background: #1c140f;
+  font-size: 16px;
+  border: 0;
+  margin-left: 20px;
+  color: #fff;
+  width: 350px;
+  outline: none;
+}
+
+.container.left.information {
+  width: 590px;
+  float: left;
+}
+
+.left.text img,
+.left.bottom img {
+  padding-bottom: 20px;
+}
+
+.left-btn {
+  background: #2351f5;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 17px;
+}
+
+.left-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.left.text h4,
+.left.bottom h4 {
+  float: right;
+  margin-right: 350px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.left.text h3,
+.left.bottom h3 {
+  padding: 20px 0;
+  font-size: 30px;
+  width: 570px;
+  font-weight: 500;
+}
+
+.left.text p,
+.left.bottom p {
+  width: 500px;
+  line-height: 35px;
+  padding: 10px 0;
+}
+
+.left.text {
+  margin-bottom: 70px;
+}
+
+.left.bottom img {
+  padding-top: 100px;
+}
+
+.container.right.infoemation {
+  width: 800px;
+  float: right;
+}
+
+.work.lorem {
+  margin-top: -80px;
+}
+
+.btn.works {
+  float: right;
+  padding-right: 400px;
+  padding-top: 30px;
+}
+
+.btn-work {
+  background: #ff8484;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 14px;
+}
+
+.btn-work:hover,
+.btn-work-one:hover,
+.btn-work-two:hover,
+.btn-work-three:hover,
+.btn-work-four:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.work.lorem p {
+  float: right;
+  margin-right: -220px;
+  margin-top: 40px;
+}
+
+.work.lorem h3 {
+  font-size: 23px;
+  width: 380px;
+  font-weight: 500;
+  margin-left: 240px;
+  margin-top: -90px;
+}
+
+.btn-work-one {
+  background: #2351f5;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 14px;
+}
+
+.btn-work-two {
+  background: #ff7c32;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 14px;
+}
+
+.btn-work-three {
+  background: #23a54f;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 14px;
+}
+
+.btn-work-four {
+  background: #9921c3;
+  color: #fff;
+  padding: 15px 40px;
+  border: 0;
+  transition: all 500ms ease;
+  font-size: 14px;
+}
+
+.email.news {
+  padding-top: 1750px;
+  width: 530px;
+}
+
+/*Сторінка з контактами*/
+.hero-contacts h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 33px;
+}
+
+.hero-contacts p {
+  text-align: center;
+}
+
+.hero-contacts img {
+  width: 70%;
+  margin: 80px 15%;
+}
+
+.feedback {
+  padding: 70px 0;
+  background: #1c140f;
+}
+
+.feedback h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.feedback p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.feedback form {
+  margin: 80px auto;
+  width: 600px;
+}
+
+.feedback form .inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback form .inline > div {
+  width: 50%;
+}
+
+.feedback form label {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+
+.feedback form input,
+.feedback form textarea {
+  background: #2c2420;
+  border-radius: 10px;
+  border: 0.6px solid #cecece;
+  display: block;
+  width: 90%;
+  padding: 15px 10px;
+  outline: none;
+  color: #fff;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+  width: 96%;
+}
+
+.feedback form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.feedback form button {
+  background: #dc7000;
+  border-radius: 5px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 35px;
+  transition: all 700ms ease;
+}
+
+.feedback form button:hover {
+  background: rgb(133, 24, 24);
+}
+
+/* Footer */
+footer {
+  background: #000;
+  padding: 50px 0;
+}
+
+footer .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .blocks p {
+  width: 300px;
+  margin: 15px 0;
+}
+
+footer .blocks h4 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer .blocks ul {
+  list-style: none;
+}
+
+footer .blocks ul li {
+  margin-top: 7px;
+  opacity: 0.8;
+}
+
+footer hr {
+  margin: 30px 0;
+  border: 0;
+  height: 0.6px;
+  background: #ccc;
+}
+
+footer > p {
+  text-align: center;
+}
